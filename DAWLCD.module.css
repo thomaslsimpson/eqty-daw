@@ -1,0 +1,14 @@
+
+.lcd {
+  display: inherit;
+  min-height: 199.96px;
+  justify-content: inherit;
+  align-items: inherit;
+  font-size: 0.85rem;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 2;
+  font-family: var(--font-mono);
+  background: #000000;
+}
+

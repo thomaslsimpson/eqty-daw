@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+@font-face {
+  font-family: "Circular Std";   /*Can be any text*/
+  src: local("Circular Std"),
+    url("/fonts/CircularStd-Book.otf") format("opentype");
+}
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-width: 880px;
+background: linear-gradient(138.26deg, #DEDEDE 13.63%, #909090 85.99%);
+border: 1px solid #000000;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+border-radius: 7px; 
+}
+
+
+.buttonPanel {
+  display: flex;
+}
+
+
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: var(--font-mono);
+}
+
+
+.upper {
+  position: relative;
+  background: #315D99;
+  height: 47.09px;
+}
+
+.apptekLogo {
+  position: absolute;
+  top: 10.48px;
+  right: 22px;
+  /* background-blend-mode: soft-light; */
+  /* mix-blend-mode: normal; */
+}
+
+.lower {
+  display: flex;
+  flex-direction: row;
+/* Header - BG */
+/*
+position: absolute;
+left: 4px;
+right: 206.22px;
+top: 48.91px;
+bottom: 0.09px;
+*/
+background: linear-gradient(180deg, #FFFFFF 0.5%, rgba(228, 228, 228, 0) 100%);
+box-shadow: inset 0px -2px 2px rgba(0, 0, 0, 0.5), inset 2px 2px 1px rgba(255, 255, 255, 0.25);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.lowerGlass {
+  position: absolute;
+  left: 4px;
+  right: 206.22px;
+  top: 48.91px;
+  bottom: 0.09px;
+
+  background: linear-gradient(95.32deg, rgba(255, 255, 255, 0.2) 48.6%, rgba(255, 255, 255, 0) 48.61%, rgba(255, 255, 255, 0) 102.05%);
+}
+
+.headerLeft {
+  position: relative;
+  flex-grow: 1;
+}
+
+
+.deluxeLogo {
+  position: absolute;
+  left: 18px;
+  top: 9px;
+  /*top: calc(50% - 39.34px/2 + 20.82px);*/
+  opacity: 0.75;
+}
+
+.headerLeftTitle {
+  position: absolute;
+  top: 22px;
+  left: 169px;
+
+  font-family: 'Cutive Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  /* identical to box height, or 24px */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+
+.headerSpeaker {
+  width: 204px;
+  height: 67px;
+  background: linear-gradient(135deg, rgba(255, 254, 254, 0) 0%, #BCBCBC 68.5%);
+  box-shadow: inset 2px 0px 2px rgba(0, 0, 0, 0.5);
+  filter: drop-shadow(2px 2px 0px rgba(255, 255, 255, 0.25));
+}
+
+
+.carrier {
+    display: flex;
+    flex-direction: row;
+    background: #227799;
+}
+
+.carrierControls {
+    display: flex;
+    flex-direction: row;
+    background: #229944;
+}
+
+.carrierControlButton {
+    display: flex;
+    background: #997799;
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  z-index: 2;
+}
+
+
+

@@ -1,0 +1,265 @@
+
+.carrier {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 480px;
+    height: 48px;
+}
+
+.carrierControls {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0px;
+    left: 85px;
+    width: 310px;
+    height: 48px;
+}
+
+.leftActiveIndicator {
+  position: absolute;
+  top: 10.5px;
+  left: 0px;
+  width: 85px;
+  height: 27px;
+}
+
+.rightActiveIndicator {
+  position: absolute;
+  top: 10.5px;
+  left: 320px; /* 480 - 85 plus adjustment for 160pox image */
+  width: 85px;
+  height: 27px;
+}
+
+.carrierOutlineBackground {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 310px;
+  height: 48px;
+}
+
+
+
+.carrierControlButton {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(111.66deg, #757575 10.04%, rgba(120, 120, 120, 0) 91.7%);
+    border-radius: 5.5px;
+}
+
+
+.carrierButtonPlay {
+    top: 4px;
+    left: 84px;
+}
+
+.carrierButtonPause {
+  top: 4px;
+  left: 135px;
+}
+
+.carrierButtonStop {
+  top: 4px;
+  left: 186px;
+}
+
+
+.carrierActiveIndicatorLight{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 10px;
+  height: 10px;
+}
+
+
+.activeIndicatorButton{
+}
+
+
+/*  Buttons
+--------------------------------------
+
+position: absolute;
+width: 38.64px;
+height: 36.03px;
+left: 0.29px;
+top: 1px;
+
+
+
+/ Outline 
+
+position: absolute;
+left: 0.71%;
+right: 2.7%;
+top: 2.49%;
+bottom: 7.42%;
+
+background: linear-gradient(111.66deg, #757575 10.04%, rgba(120, 120, 120, 0) 91.7%);
+border-radius: 5.5px;
+
+
+/ Foreground 
+
+box-sizing: border-box;
+
+position: absolute;
+left: 1.43%;
+right: 3.41%;
+top: 3.8%;
+bottom: 8.33%;
+
+background: linear-gradient(180deg, #B8B8B8 0%, #9B9B9B 100%);
+box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.4);
+border-radius: 5px;
+
+
+/ Play Icon
+
+position: absolute;
+left: 29.01%;
+right: 29.01%;
+top: 21.76%;
+bottom: 26.69%;
+
+background: rgba(0, 0, 0, 0.05);
+box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75), inset 1px 1px 0px rgba(0, 0, 0, 0.25);
+*/
+
+/* ------ BUTTON 
+ *
+ *
+
+/ Active Button - Inactive 
+
+position: absolute;
+width: 25.67px;
+height: 26.49px;
+left: 0.18px;
+top: -0.35px;
+
+
+
+/ Background 
+
+position: absolute;
+width: 25.67px;
+height: 26.01px;
+left: 0.18px;
+top: 0.13px;
+
+
+
+/ BG - Shadow 
+
+position: absolute;
+width: 25.54px;
+height: 24.9px;
+right: 134.15px;
+top: calc(50% - 24.9px/2 + 0.18px);
+
+background: rgba(0, 0, 0, 0.5);
+filter: blur(2.5px);
+
+
+/ BG - Black 
+
+position: absolute;
+width: 24.84px;
+height: 24.22px;
+right: 134.98px;
+top: calc(50% - 24.22px/2 - 1.26px);
+
+background: #000000;
+
+
+/ Foreground 
+
+position: absolute;
+width: 24.84px;
+height: 24.22px;
+left: 0.18px;
+top: -0.35px;
+
+
+
+/ BG - Highlight
+
+position: absolute;
+visibility: hidden;
+left: -16.46%;
+right: 84.54%;
+top: -2.58%;
+bottom: 10.34%;
+
+background: rgba(255, 255, 255, 0.15);
+
+
+/ BG - Black
+
+position: absolute;
+width: 24.84px;
+height: 24.22px;
+right: 134.98px;
+top: calc(50% - 24.22px/2 - 1.74px);
+
+background: #000000;
+
+
+/ Outline 
+
+position: absolute;
+width: 24.31px;
+height: 23.7px;
+right: 135.25px;
+top: calc(50% - 23.7px/2 - 1.75px);
+
+background: linear-gradient(136.67deg, #7A7A7A 14.1%, rgba(119, 96, 37, 0) 91.5%);
+
+
+/ Foreground
+
+box-sizing: border-box;
+
+position: absolute;
+width: 23.72px;
+height: 23.13px;
+right: 135.54px;
+top: calc(50% - 23.13px/2 - 1.75px);
+
+background: #BEBEBE;
+*/
+
+
+/* indicator light
+ *
+
+
+ / Active Indicator
+
+position: absolute;
+width: 10px;
+height: 10px;
+left: 31.96px;
+top: 7.97px;
+
+
+
+/ Active - BG
+
+position: absolute;
+width: 10px;
+height: 10px;
+right: 118.04px;
+top: calc(50% - 10px/2 - 0.53px);
+
+background: #9C3729;
+box-shadow: 0.25px 0.25px 0px rgba(255, 255, 255, 0.25), inset 0.3px 0.3px 0px rgba(0, 0, 0, 0.75);
+
+*/
+

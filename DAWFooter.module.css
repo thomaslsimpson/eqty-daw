@@ -1,0 +1,164 @@
+
+
+.footer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 57.57px;
+  z-index: 2;
+  background: #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.footerSpacer {
+  flex-grow: 1;
+}
+
+
+.footerGlass {
+  position: absolute;
+  background: linear-gradient(94.11deg, rgba(235, 235, 235, 0.17) 17.39%, rgba(0, 0, 0, 0) 19.11%);
+  left: 0.05%;
+  right: 0.05%;
+  top: 0%;
+  bottom: 0%;
+}
+
+
+/*
+/ Encrypted Icon
+
+position: absolute;
+width: 18.64px;
+height: 23.3px;
+left: 235.3px;
+top: 396.48px;
+opacity: 0.75;
+
+
+/ Encrypted 
+
+position: absolute;
+left: 26.74%;
+right: 71.14%;
+top: 90.67%;
+bottom: 4%;
+
+background: #FF7D46;
+
+
+/Progress 
+
+position: absolute;
+width: 205px;
+height: 25px;
+left: 20.17px;
+top: 396.04px;
+
+opacity: 0.75;
+
+
+/ 5% 
+
+position: absolute;
+width: 5.59px;
+height: 24.88px;
+left: 20.17px;
+top: 396.04px;
+
+background: #FF7D46;
+
+
+/ 10% 
+
+position: absolute;
+width: 5px;
+height: 25px;
+left: 30.17px;
+top: 396.04px;
+
+background: #FF7D46;
+
+
+/ 15%
+
+position: absolute;
+width: 5px;
+height: 25px;
+left: 40.17px;
+top: 396.04px;
+
+background: #FF7D46;
+
+
+/ 20% 
+
+position: absolute;
+width: 5px;
+height: 25px;
+left: 50.17px;
+top: 396.04px;
+
+background: #FF7D46;
+
+
+/ 25% 
+
+position: absolute;
+width: 5px;
+height: 25px;
+left: 60.17px;
+top: 396.04px;
+
+background: #FF7D46;
+
+
+/30% 
+
+position: absolute;
+width: 5px;
+height: 25px;
+left: 70.17px;
+top: 396.04px;
+
+background: #FF7D46;
+
+
+/ Display - Glass
+
+position: absolute;
+left: 0.05%;
+right: 0.05%;
+top: 86.84%;
+bottom: 0%;
+
+background: linear-gradient(94.11deg, rgba(235, 235, 235, 0.17) 17.39%, rgba(0, 0, 0, 0) 19.11%);
+
+
+/EQTYLAB Logo 
+
+position: absolute;
+width: 105.69px;
+height: 21.41px;
+left: 751.75px;
+top: 398.67px;
+
+background: url(image.png);
+opacity: 0.75;
+
+
+/ Nvidia Logo 
+
+position: absolute;
+width: 84.07px;
+height: 15.5px;
+left: 264.07px;
+top: 401.74px;
+
+background: #FF7D46;
+opacity: 0.7;
+
+
+*/
+
